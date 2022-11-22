@@ -1,4 +1,9 @@
 <?php // echo 3;
+/* Research how to generalize the function to modify ($_POST['message']),
+how math as functions interconvert, string, int, or tertiary. I might
+need operator 1, value 1, operator 2, value 2, consider how math operations
+work and try to build the most generalized solution. Graphing could
+be interesting as well. HTML/CSS line drawing, that responds to an int. */
 echo intval($_POST['message']) * 2 . '👁️'; 
 ?>
 <!-- http://chess/testing-progress/Math.games-testing/server-read.php -->
