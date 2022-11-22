@@ -1,5 +1,5 @@
 <?php // echo 3;
-echo intval($_POST['message']) + 2; 
+echo intval($_POST['message']) * 2 . '👁️'; 
 ?>
 <!-- http://chess/testing-progress/Math.games-testing/server-read.php -->
 <!-- test log: 
