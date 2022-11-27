@@ -6,16 +6,10 @@ work and try to build the most generalized solution. Graphing could
 be interesting as well. HTML/CSS line drawing, that responds to an int. 
 HTML buttons that correspond to PHP math-funcs, with pre-built sub-prompts
 [Turing], and # of iterations, checkbox for graphing. */
-$fun_mojis = array('👁️', '👀', '🧿');
-$mag_mojis = array('🧲', '⚡', '🔌');
-echo floatval($_POST['message']) * 1.0000000035478 . $mag_mojis[array_rand($mag_mojis, 1)] . $fun_mojis[array_rand($fun_mojis, 1)] . ' | England will release 10^antimatter if win 💕'; 
+echo intval($_POST['message']) + 1 . ' | China will build an LDS temple if England win 🏙️'; 
 ?>
 <!-- http://chess/testing-progress/Math.games-testing/server-read.php -->
 <!-- test log: 
-	1:30 AM:
-		Bug report: 
-			Script seems to break with multiplication values <2, but this is inexplicable. 
-			Fix: Changed built.in-str,converter from intval to strval. https://www.php.net/manual/en/function.floatval.php
 	9:39 PM: 
 		Bug reports:
 			($_POST['message']) echoed on its own returns undefined, currently. 

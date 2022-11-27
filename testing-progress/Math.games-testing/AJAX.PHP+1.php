@@ -1,7 +1,8 @@
 <p><button type="button" onclick="retrieve_more_msg()">Retrieve-msg</button>
 | <button type="button" onclick="clear_msg()">Clear</button> | 
 <button type="button" onclick="test_msg()">Test</button></p>
-<p id="msg">1</p>
+<p id="msg">2.00470280767</p>
+<p id="msg2">662000</p>
 <script>function retrieve_msg() {
     const xmlhttp = new XMLHttpRequest();
     xmlhttp.onload = function() {
@@ -13,12 +14,24 @@ var message = "message=" + document.getElementById("msg").innerHTML;
   xmlhttp.send(message);
   // document.write(message);
   } 
+  function super_chill() {
+    const xmlhttp = new XMLHttpRequest();
+    xmlhttp.onload = function() {
+      document.getElementById("msg2").innerHTML = this.responseText;
+    }
+var message2 = "message=" + document.getElementById("msg2").innerHTML;
+  xmlhttp.open("POST", "server.read-2.php", true);
+  xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  xmlhttp.send(message2);
+  // document.write(message);
+  } 
 function clear_msg() {
 	document.getElementById("msg").innerHTML = 'no more msg';
 }
 function retrieve_more_msg(){
 <!-- The millisecond interval is set to video consensus 30 frames/sec>
-	setInterval(retrieve_msg, 33);
+	setInterval(retrieve_msg, 2000);
+	setInterval(super_chill, 33);
 }
 function test_msg(){
 	var message = "message=" + document.getElementById("msg").innerHTML;
@@ -42,6 +55,14 @@ Next step: write an input form, that allows me to write a X-wise formula
 
 <!-- http://chess/testing-progress/Math.games-testing/AJAX.PHP+1.php -->
 <!-- testing-log:
+	5:02 PM 11/24/22:
+		Fun calc: 2*(1.0000000035478^6,158,153,000) = 6,158,151,751.17, but the +1 count is 60x faster.
+			Second thought<Turing>, wouldn't it be when the exponent is /60 of the right of equals? My bet: between 6.9-7.3-5,upwards of 8.4, 90% confidence top of the exponent. 
+			At 7-bn*60, with 30 counts per second, and 31-mn seconds per year, it'll take 451.61 years to equilibrate. 
+		Critical apostraphe error wiped server-read.php count, fixed by multiplying out 2*(1.0000000035478^662000)
+	1:36 AM 11/22/22:
+		Added "msg" ID<p>, second function call to server.read-2.php, and another
+		setInterval to retrieve_more_msg. 
 	9:59 PM:
 		After applying the fix from 9:44 PM: I click retrieve-msg, and 1 is updated
 		to 2, but there is no further incrementation. Clicking retrieve-msg again, and 
