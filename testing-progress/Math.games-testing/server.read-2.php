@@ -6,7 +6,7 @@ work and try to build the most generalized solution. Graphing could
 be interesting as well. HTML/CSS line drawing, that responds to an int. 
 HTML buttons that correspond to PHP math-funcs, with pre-built sub-prompts
 [Turing], and # of iterations, checkbox for graphing. */
-echo intval($_POST['message']) + 1 . ' | China will build an LDS temple if England win 🏙️'; 
+echo intval($_POST['message']) + 1 . ' | 🏙️'; 
 ?>
 <!-- http://chess/testing-progress/Math.games-testing/server-read.php -->
 <!-- test log: 
