@@ -8,7 +8,7 @@ HTML buttons that correspond to PHP math-funcs, with pre-built sub-prompts
 [Turing], and # of iterations, checkbox for graphing. */
 $fun_mojis = array('👁️', '👀', '🧿');
 $mag_mojis = array('🧲', '⚡', '🔌');
-echo floatval($_POST['message']) * 1.0000000035478 . $mag_mojis[array_rand($mag_mojis, 1)] . $fun_mojis[array_rand($fun_mojis, 1)] . ' | England will release 10^antimatter if win 💕'; 
+echo floatval($_POST['message']) * 1.0000000035478 . $mag_mojis[array_rand($mag_mojis, 1)] . $fun_mojis[array_rand($fun_mojis, 1)] . ' | 💕'; 
 ?>
 <!-- http://chess/testing-progress/Math.games-testing/server-read.php -->
 <!-- test log: 
