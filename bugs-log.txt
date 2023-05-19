@@ -1,0 +1,4 @@
+12/4/22:
+In internet explorer, there may be an issue with XMLHTTPRequest:
+AJAX.PHP+1.php loads with static, but Retrieve-msg does nothing. 
+Could also be an issue with calling the JS-func, among other things, syntax, etc. 

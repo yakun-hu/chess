@@ -1,0 +1,92 @@
+C:\wamp64\www\chess
+
+Chess Website: Point materialinchess.com and re-make 16-grid, same AWS v-host<merger>
+
+Use Chinese char + chess piece emoticons for display in any diagrams #fen_render
+Show board checkbox with 3 design options: show all pieces, pawns only, nobles. Show weak squares. Click on square to calculate E. Click on Zi to see rays of E, colored arrows # Determine checkmate # 
+Higher value nobles that are under attack by lower value nobles. 
+Am I in check? 
+Material count: difference, each side. Total E. Cite ch-# for each analysis in analyzer dash. 
+Create a list of puzzles, with analyzer to help solve as hints, track solve attempts in db, basic spaced rep # as “Anki-3”, all bl #, vastly reduced diagrams, and be able to pull ch-excerpts as hints<first.MIC-Path>
+
+^ Work through sec-2 definitions and write code with push.some-or,all.MIC to reveal all possible tactics of that category # 
+“Measure Space AUC”
+Ch-6: Identify imbalances, and ch-12 summarized eval # check excel from ‘21
+Threats: 1) All E captures, ply 2 2) 
+My threats 1) All “ply 3 E”, squares that can be attacked with a move. 
+Highlight all captures. 
+Suggest: material winning captures with calculation of all E liquidation in that square # 
+Review ch-15, chesstempo copy paste ch~59 
+Middle-game pattern analyzer, identify likely opening source, check Berliner article # proprietary paid tier past # —> fork<sbno>automated underline and bolding markup generator for text analysis, other punctuations. 
+Go deep into paid zone, and project likely compensation until it merges, even on an order of magnitude, with righteous, then fold this back to rigidity with present # 
+Arrow generator: store a dictionary in PHP of starting point abs-pos coords for the grid, and start a rectangle emanating from this square; then draw a triangle to meet this rectangle relatively # in the term-sq # 
+Velocity and accel analysis by multi-ply: a pgn input or pgn+FEN upcoming # 
+
+Store the output of each sub-function analysis in a resulting $GLOBAL-var, and perform higher l.o-a<ch-8>analysis on that output. 
+
+Legal move generation<big>: superlative move generation: highest effect delta, // 
+
+If in check, list moves that get out of check, and the category of check-escape; likewise, for any piece check, from a list, drop down all ways to run those # 
+Multiple move solution puzzles with one solution, or more than one solution on ply forks # likewise, in the board manipulator, store variations, download, and render a new b-code or FEN upon req # 
+Skewers by definition are E, so among the E rays look for a second (E) along that same E line, with int conditions accounted, etc # ; and with a move-E<“ply 3”> or e-thr<ply-2> generalized E extension # 
+Power level based, and move recommendations<ch-10>using tactical themes, later ch.6-53 
+Initiative maps; lat-piv temperament maps # homeostatic measurements, Effect | Space ratio for Ch-55, unt-inv<ch-54>probability calculator.
+
+Keep a count of total type of zi; generate these variables dynamically, depending on user’s query, to minimize computation load efficiently.
+
+Numerological retriever<fbno> with b.p-aspects<ch-12>to select a passage # 
+Display live CPU analytics: how much computation was done on your browser, count of conditional and line executions, number of variables, total elements held in RAM #
+Introduce some preliminary data-basing for stored patterns and evaluations; in certain cases, select var-store, read and write to db # 
+Custom concept mapping + calculator + CPU-adjuster boutique: Enscape / DeSeq2 analogue as a service<fbno-发明>
+Chess algo used as ad, add ex’s as go, proprietary, keep deepen and recognize this milestone. Add prec-msg to MIC: Case Study<ch-63>
+
+Sub-sected diagrams: methods: 1) 4 corners, 2) Ch.3 road E nomenclat, linear diag # 
+
+<src="media/Wei-Xin B.E-Dash.jpg">“Custom AI assistant”
+
+Ex's:
+Ne7+ here, a sample +scovery search https://lichess.org/h9d8orcx/white#36
+23…g3: z-zug ex https://lichess.org/9jg3UjVK/black#45
+9…d4, E-diff of a result-sq: https://lichess.org/9oRdRRns/black#17
+https://lichess.org/training/VBXcY 44. Qh8+# line # g4+ as an attr-model
+Factoring in the mat-val # of promo: https://lichess.org/uRGeQotP/black#49 25…c2 from Anki: chllenge-seq
+https://lichess.org/UP2fkZpm/white#34 18…Nxe4 from Anki: capture contender # of an abs.pin-sq: 3rd ply tactic # 
+	^ Output verbal tactic type, w/ citation of MIC, also, and pull up excerpt # 
+Thr-18…Ne3+$$ and dxc3 https://lichess.org/7RF7Qqit/white#34 <Anki> prioritize value of thrs, match with offset ply moves #<Turing>
+典型coer-ex: https://chesstempo.com/chess-tactics/147324<Anki>
+Count E-diff in e6 in 18.s-ini and 18.s-res, played https://lichess.org/XHNPFdAL/
+
+<str-parse><search><patterning>Gather sentences by ch-ref, and expand those sentences into the full surround, starting at the most granular l.o-a # 
+
+Concise material-imbal reason # 
+
+Next task for fen_render, push to chess/main and create a zi_class.inc with 6 classes for each Zi and rules of E<ch-3>and M<ch-5>specified 
+Consider using extends to extend a base zi class to chars, then nobles: https://www.php.net/manual/en/language.oop5.basic.php
+#compl-match
+
+Chess website: suggested citation, for researchers.
+
+Write out full c.u-b,c in moves<ch-2: moves vs board states>
+
+Highlight: “hangtacked ren”
+
+Later engine<v-t>: appl of calc-reds and time-reds
+
+For book: I need to be able to # pull with drop-down, threaded generation tiers like Ch -> H2 -> specific passages and then trigger to edit just 
+those sections, completely modularly; then how can images be stored? In relation to which section. 
+
+Post: FEN => generate JPG<PHP>for copy into Anki<doable> 
+~8 steps up: Infallible Premove Generator
+The data can also be hierarchically searched, dynamically generated web pages that only contain passages, whereas in G-docs, 
+each passage is tied only to the document URL in which it's created.
+
+Ch-39: Stopping a mate-thr ex, also relevant to M3 solvers; grinding Mate solves<Hu-lab analogy> might be a good spiral thread w/ general algo-prog 
+	# w/ each of the 3 having an equal share, on the foundation of the Compr-dash 
+^ Find Bd1<int-E><ch.3-15> in Unexpected M-1’s as an example ^ 
+These are part of a greater set of “Trap Mates”, where on response~ to a ch-39 or +, and I can split these, has a mate for e, and one+, not, even 
+	winning, but can avoid eval of the non-mate lines for now; needs dependencies, and integration, a chain of requires # 
+
+Chess analyzer: checkmate pattern detector in the mate calculator: print the checkmate type, and, when efficient, incorporate that search as well, 
+in the mate solve # with indexing, such as pattern of what is in the king’s run-sq, attacking zi available, open lines, 等等
+
+Use the chess analyzer to continue adding chess-analysis to MIC
