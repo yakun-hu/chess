@@ -1,7 +1,7 @@
 <head><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
   <link rel="stylesheet" href="php_local_libs/CSS-external.php"></head>
-<?php require "php_local_libs/innate.M-inc.php";
+<?php // require "php_local_libs/innate.M-inc.php";
 $file_dictionary = array(1=>"a", 2=>"b", 3=>"c", 4=>"d", 5=>"e", 6=>"f", 7=>"g", 8=>"h"); 
 // echo $file_dictionary[3];
 function zi_assembly_helper($zi_char, $网格, $side) {
