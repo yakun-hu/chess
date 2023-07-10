@@ -1,5 +1,8 @@
 E1: Input | 1-s: S: K-d8 R[e4,]P[d7,] | F: K-f7 R[c1,][D]<br><br><?php require'innate.M-trait,class.inc-test.php';?>
-<!--first array--><?php $POSTED_assoc_f = array("f7"=>"K","c1"=>"R"/*locs from analy-1*/);$POSTED_assoc_s = array("d7"=>"P","d8"=>"K","e4"=>"R")?><!--1) square.key-attr[zi-assembl,upd]-->
+<!--first array--><?php $POSTED_assoc_f=array("f7"=>"K","c1"=>"R"/*locs from analy-1*/);$POSTED_assoc_s=array("d7"=>"P","d8"=>"K","e4"=>"R");$count=-1;
+function transform($input,$side){foreach($input as $sq=>$type){$count=$count+1;$$type_$array_of_32[$count]=new {$type_dict[$type]}($sq,$side);}}
+$f_classes=transform($POSTED_assoc_f,"f");$s_classes=transform($POSTED_assoc_s,"s");print_r($f_classes);
+?><!--1) square.key-attr[zi-assembl,upd]-->
 		<!--gen'd in analy-1--><?php /*catch-post*/?>
 	<!--obj-instansh--><?php /*d7-P, d8-K*/
 	$P_王 = new bing("d7","s");$P_王->__ray_cntr(array("d8"));print_r($P_王);// $P_王->function(); array index ref in var.name-2nd 
