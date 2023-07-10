@@ -1,17 +1,9 @@
-E1: Input | 1-s: S: K-d8 R[e4,]P[d7,] | F: K-f7 R[c1,][D]<br><br><?php require'innate.M-trait,class.inc-test.php';?>
-<!--first array--><?php $POSTED_assoc_f=array("f7"=>"K","c1"=>"R"/*locs from analy-1*/);$POSTED_assoc_s=array("d7"=>"P","d8"=>"K","e4"=>"R");$count=-1;
-function transform($input,$side){foreach($input as $sq=>$type){global$count;global$type_dict;global$array_of_32;$count=$count+1;$type_count=$type."_".$array_of_32[$count];$$type_count=new $type_dict[$type]($sq,$side,$type,$count);print_r($$type_count);}}
-
-$f_classes=transform($POSTED_assoc_f,"f");$s_classes=transform($POSTED_assoc_s,"s");print_r($f_classes);
-
-?><!--1) square.key-attr[zi-assembl,upd]-->
+E1: Input | 1-s: S: K-d8 R[e4,]P[d7,] | F: K-f7 R[c1,][D]<?php require'innate.M-trait,class.inc-test.php';?>
+<!--第一array--><?php $贴协_f=array("f7"=>"K","c1"=>"R"/*locs from analy-1*/);$贴协_s=array("d7"=>"P","d8"=>"K","e4"=>"R");$计联=-1;
+function 使转(&$贴协,$side){foreach($贴协 as $sq=>$type){global$计联;global$type_dict;global$array_of_32;$计联=$计联+1;$type_计联=$type."_".$array_of_32[$计联];global $$type_计联;$$type_计联=new $type_dict[$type]($sq,$side,$type,$计联);$贴协[$sq]=$$type_计联;print_r($$type_计联);echo" | ".$计联." | ".$type_计联."<br>";}}
+/*obj-instansh*/$贴协_f=使转($贴协_f,"f");$贴协_s=使转($贴协_s,"s");//print_r($f_classes);?><!--1) square.key-attr[zi-assembl,upd]-->
 		<!--gen'd in analy-1--><?php /*catch-post*/?>
-	<!--obj-instansh--><?php /*d7-P, d8-K*/
-	$P_王 = new bing("d7","s");$P_王->__ray_cntr(array("d8"));print_r($P_王);// $P_王->function(); array index ref in var.name-2nd 
-	$K_嫁 = new 帅("f7","f");
-	$K_界 = new 帅("d8","s");
-	$R_使 = new Rook("e4","s");
-	$R_死 = new Rook("c1","f");?><!--set-fx-->
+	<?php /*d7-P, d8-K*/ $P_界->__ray_cntr(array("d8"));// $P_王->function(); array index ref in var.name-2nd ?><!--set-fx-->
 
 <!--2nd array[f.r-r,r]--><?php $filer = array("f"=>7,"c"=>1,"d"=>array(7,8),"e"=>4);?>
 <!--3-lie[r.f-f,f]--><?php $ranker = array(1=>"c",4=>"e",7=>array("d","f"),8=>"d");?><!--emante.thru-thes>
@@ -23,14 +15,14 @@ $f_classes=transform($POSTED_assoc_f,"f");$s_classes=transform($POSTED_assoc_s,"
 <tr><td>d8-K<span class="neutr"><0></span></td><td>c1-R</td></tr>
 <tr><td>e4-R</td><td></td></tr></table>
 <?php // E_assoc_分析2($E_Assoc);
-$R_使->fill_scrines();//print_r($R_使);?>
+$R_死->fill_scrines();//print_r($R_使);?>
 
 <!-- http://chess/testing-progress/analy.2-vert,test[A].php#h3 -->
 <!-- Notes: 
 [Late.7th-8]Problem: Statics !expr: rel | Verbal<MIC>The function that emits output, E_assoc_分析2, must echo 1) all zi locs, 2) cat'd by side, 3) E-tags any appl'b, 4) cat'd by side; 
 	It takes as an arg $E_Assoc, which contains an array of obj | These data # are curr-sctr'd, but cnt'd in few, and Rels-un,crt The original idea was<pinp>to loop through lin'd-r<r>ays and use The
-	zi.M-18	to identif zi #next
-===
+	zi.M-18	to identif zi #next deprec'd: /*$P_王=new bing("d7","s");$K_嫁=new 帅("f7","f");$K_界=new 帅("d8","s");$R_使=new Rook("e4","s");$R_死=new Rook("c1","f");print_r($P_界);*/ C.U-B,C.interm-inpu
+	PHP:functions.arguments.php<by-ref> ===
 	interessant:function.array-column.php, extracts 2-d~ array from >2d array<deriv> | obj-proc; array-chunk<infr>does revers
 		2nd argu: the key-name of the return-clmn | 3rd arg: "order by"
 	https://youtu.be/PJvG9wDkrbU PHP multi.dimens-array, "array of indexed/assoc_arrays" 
