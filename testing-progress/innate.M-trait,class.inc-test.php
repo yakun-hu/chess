@@ -1,4 +1,4 @@
-<?php /*line.🔎-ops.php*/function faggeet(){echo "bridge";}$type_dict=array("P"=>"bing","K"=>"帅","R"=>"Rook");$array_of_32=array("王","嫁","界","使","死","定","可","模","株","素","田","妙",/*12*/"平","特","别","令","副","系","网","庙",/*20*/"保","亭","完","成","损","失","福","建"/*28*/,"神","皮","料","才");// used to nomencl.zi-upon,instansh 
+<?php /*line.🔎-ops.php*/function baggeet(){echo "bridge";}$type_dict=array("P"=>"bing","K"=>"帅","R"=>"Rook");$array_of_32=array("王","嫁","界","使","死","定","可","模","株","素","田","妙",/*12*/"平","特","别","令","副","系","网","庙",/*20*/"保","亭","完","成","损","失","福","建"/*28*/,"神","皮","料","才");// used to nomencl.zi-upon,instansh 
 
 /*路_nobles,traits*/
 function 并行查找_op($line_名/*RorF🌭*/, $lim=16){global $ranker;global $filer;
@@ -13,7 +13,7 @@ function 并行查找_nop($diag_名/*🐶*/, $lim=16){}/*K*/
 /*innate.M-inc.php*/
 trait Zi {function text(){echo "Hello<br>";}public$专名;public$loc;public$side;public$E_array=array();function __construct($square,$side,$type,$count){global$array_of_32;$this->专名=$type."_".$array_of_32[$count];$this->loc=array($square[0],$square[1]);settype($this->loc[1],"int");$this->side=$side;}function __ray_cntr($array){foreach($array as $sq){array_push($this->E_array, $sq);}}} 
 
-class bing {use Zi;} class 帅 {use Zi;} class Rook {use Zi;function inc_function(){faggeet();}function fill_scrines(){并行查找_op($this->loc[0]);并行查找_op($this->loc[1]);}} 
+class bing {use Zi;} class 帅 {use Zi;} class Rook {use Zi;function inc_function(){baggeet();}function fill_scrines(){并行查找_op($this->loc[0]);并行查找_op($this->loc[1]);}} 
 
 /*test.php*/
 // $rook = new Rook("d8","f","R",0);
