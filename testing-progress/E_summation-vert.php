@@ -22,9 +22,9 @@ Lines-crine:types,
 	
 <p style="text-indent:10px">Lvl-2:assembl $E_sum(s)
 <?php $N_王=new L_码("e3","s","N",0);
-$loc="e5";$type="R";$side="f";$E_出=array("e3"=>"s");$N_王->E_sum[1]=$N_王->E_sum[1]+1;
-$loco="f2";$typo="P";$sido="s";$O_出=array("e3"=>"s");$N_王->E_sum[0]=$N_王->E_sum[0]+1;
-$loci="g5";$tipo="B";$sydo="f";$y_出=array("e3"=>"s");$N_王->E_sum[1]=$N_王->E_sum[1]+1;print_r($N_王->E_sum);?></p>
+$loc="e5";$type="R";$side="f";$E_出=array("e3"=>"s");++$N_王->E_sum[1];
+$loco="f2";$typo="P";$sido="s";$O_出=array("e3"=>"s");++$N_王->E_sum[0];
+$loci="g5";$tipo="B";$sydo="f";$y_出=array("e3"=>"s");++$N_王->E_sum[1];print_r($N_王->E_sum);?></p>
 
 <br>E2: <b>Output</b> | Output-cheq<br>
 <table><tr><td><?php echo array_keys($贴协_s)[0];?>-P<?php // echo strtok($贴协_s[array_keys($贴协_s)[0]]->财产["专名"],"_");?><span class="prot-E"><<?php echo $N_王->E_sum[0].":".$N_王->E_sum[1];?>></span></td><td><?php echo array_keys($贴协_f)[0];?>-K</td></tr>
