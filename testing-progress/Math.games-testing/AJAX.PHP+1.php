@@ -1,8 +1,8 @@
 <p><button type="button" onclick="retrieve_more_msg()">Retrieve-msg</button>
 | <button type="button" onclick="clear_msg()">Clear</button> | 
 <button type="button" onclick="test_msg()">Test</button></p>
-<p id="msg">2.00470280767</p>
-<p id="msg2">662000</p>
+<p id="msg">2.00019501789</p>
+<p id="msg2">1650000</p>
 <script>function retrieve_msg() {
     const xmlhttp = new XMLHttpRequest();
     xmlhttp.onload = function() {
@@ -55,6 +55,10 @@ Next step: write an input form, that allows me to write a X-wise formula
 
 <!-- http://chess/testing-progress/Math.games-testing/AJAX.PHP+1.php -->
 <!-- testing-log:
+	9:00 PM 12/1/22:
+		Calculated that the +1 count is 60x faster than the exponential count by refresh rate<Turing>, after 
+		15.3 hours of runtime. Divided 1,650,000, the +1 count progress, by 60, and raised the principal
+		of the exponential to that. Started new counts at 2.00019501789, 1650000. 
 	5:02 PM 11/24/22:
 		Fun calc: 2*(1.0000000035478^6,158,153,000) = 6,158,151,751.17, but the +1 count is 60x faster.
 			Second thought<Turing>, wouldn't it be when the exponent is /60 of the right of equals? My bet: between 6.9-7.3-5,upwards of 8.4, 90% confidence top of the exponent. 
