@@ -1,5 +1,6 @@
 <?php require'innate.M-trait,class.inc-test.php';/*test.env-suppl*/造铁($贴协_s,$贴协_f);使转($贴协_s,"s");使转($贴协_f,"f");
-function 找考/*analy.2-assemblr*/($贴协){/*echo "<br>Start time: ".microtime()."<br>";*/foreach($贴协 as $sq=>$类对){
+function 找考/*analy.2-assemblr*/($贴协_s,$贴协_f){$贴协=array_merge($贴协_s,$贴协_f);/*echo "<br>Start time: ".microtime()."<br>";*/foreach($贴协 as $sq=>$类对){
+			foreach($类对->E_出 as $sq=>$空){$类对->E_出[$sq]=$贴协[$sq]->财产["side"];/*10%x*/}
 	 if($类对->财产["专名"][0]=="P"){$类对->并行歪找($类对->财产["地点"],$lim="P");echo"P-";}
 else if($类对->财产["专名"][0]=="K"){$类对->并行歪找($类对->财产["地点"],$lim="K");$类对->并行查找($类对->财产["地点"],$lim="K");echo"K-";}
 else if($类对->财产["专名"][0]=="B"){$类对->并行歪找($类对->财产["地点"]);echo"B-";}
@@ -9,7 +10,7 @@ else if($类对->财产["专名"][0]=="N"){$类对->N找($类对->财产["地点
 /*add E_出 side-proc, place-h for merg #*/
 	/*E.sum-R,nobs*/foreach($贴协 as $sq=>$类对){if(in_array($类对->财产["专名"][0],array("R","Q"))){接_查($类对->E_出,$类对->财产["地点"],$类对->财产["side"]);}/*P-K E_sum is filled in 限修*/
 	elseif(in_array($类对->财产["专名"][0],array("B","Q"))){接_歪($类对->E_出,$类对->财产["地点"],$类对->财产["side"]);}}/*echo "<br>End time: ".microtime()."<br>";*/}
-/*calls*/找考($贴协_f);找考($贴协_s);
+/*calls*/找考($贴协_s,$贴协_f);
 /*test*/foreach(array_merge($贴协_s,$贴协_f) as $sq=>$类对){echo$sq." | ";print_r($类对->E_sum);echo"<br>";}?>
 
 <!-- http://chess/testing-progress/找考.composr-test.php -->
