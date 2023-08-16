@@ -1,6 +1,13 @@
-Display
+Display:
+	Stru
+
+Anal.4-func: pm1_sol  
 <!-- http://chess/testing-progress/analyzer-4.php#h3 -->
 <!-- Notes: 
+[Late.8th-9]Tempo-tier: 8/7k/1R5P/1p5K/2bnp3/8/8/8 b - - 0 1 | thr.cnt-dwn | 3 vs 3; i go first, and he has a tempo interm-zug | mate before promo in the no-zug case #mate-stakes | analy is a relation-calc
+[Late.8th-8]billi: a space-tier | 6k1/1p5p/8/pR6/3R2p1/4q3/6PK/8 w - - 0 1 stack [v.close-stale,fen][spash-skew]空间中的移动：增强 Space.tier-2: 8/p4p1k/2K1bPp1/q3P3/3QBP1p/8/7P/8 b - - 0 1 Kd8-d6,a3.c1 and b4-c3
+	rout: a merg inst that's at least 1 dev from prev | Ki-bosh,che.co
+{Late.8th-earl}analy-4: space calc, occ/E rash | high-bal
 Goal: ply.fwd-analysis, to identify moves that are bl.vis-diff, from ini.b-p # 
 Analyzer 4: “Simulate”, and “Threats” sep, w/ +state-persis Need: an UPDATE-stmt,analogue 
 Both flips of move simulation and attr-assign will benefit from the M-based move-gen under my standard E-sys # #bounce-range

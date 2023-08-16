@@ -1,6 +1,16 @@
-Display
+Display:
+	Kb3[0:0]<cont-c2[1:1]>
+	Kd4$.e4-B[1:1]
+	g2(+4)[0:1]<auto-shel>
+	// There are 3 typ-compo
 <!-- http://chess/testing-progress/analyzer-3.php#h3 -->
 <!-- Notes: 
+理论： E-delta subs of cond-mo:
+	My goal is to # discover # the most.sig-delts; howe, the former E-tableau is not stor'; I need E_sums, such as, passing objs to $_SESS; reca: each zi is #'d, canno-excee,32 so the props foll-zi 
+		I can re-calc E_sum by tot, each.$-shiel, diff, invers and smart-disco,alg<analy.2-sing>
+[Late.8th-1]Analy-3: show motifs by levels | Cond-mo to sum-dept, 2) alignment recog 3) M 4) a bit meta 5) more _ SESS, TINY-sql
+	Write move suggs to db 1) not perm to obj, mostly statics 2) too many props for array <l-p> ; use a temp (table) or db # review | variation management ID-nomen<n-p>
+	Mo, zi, ini, dest, E-delta is assoc’d w/ the move and the zi # Analy-3 <multi-process>I can run SQL compr-funcs on mo-props to ev-vars<T-ring>
 [Late.7th-11]Analy-3 delta functions; a [short.state-exc]<MIC>, compr some Val in the post.cond-stay vs pre.byPost<suches>
 [Late.7th-2]
 	<ch.3-intro>assass.cond-2: cnt sqs by total mat-dump<fbno>E<mat-dump>
